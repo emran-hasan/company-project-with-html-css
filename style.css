@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Work sans', sans-serif;
+	
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+section{
+	padding: 80px 0px;
+}
+.topbarMain{
+	background-color: #f5f5f5;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.phone {
+    width: 210px;
+    float: left;
+    font-size: 14px;
+    padding: 15px 0px;
+    border-left: 1px solid #E4E4E4;
+}
+.phone i{
+	color: #30bfa5;
+	padding: 0 10px;
+}
+.email {
+    width: 759px;
+    float: left;
+    font-size: 14px;
+    padding: 15px 0px;
+    border-left: 1px solid #E4E4E4;
+}
+.email i{
+	color: #30bfa5;
+	padding: 0 10px;
+}
+.social a{
+	display: block;
+	float: left;
+	padding: 15px;
+	color: #2f2e2e;
+	border-right: 1px solid #E4E4E4;
+	transition: 0.5s;
+
+}
+.social a:hover{
+	color: #30bfa5;
+}
+.social a:first-child{
+	border-left: 1px solid #E4E4E4;
+}
+.topbarWrapper{
+	overflow: hidden;
+}
+
+/*--------------------------------- Primary menue---------------------------- */
+.primaryWrapper{
+	overflow: hidden;
+	width: 100%;
+
+}
+.logo{
+	padding-top: 16px;
+}
+
+.primaryWrapper .logo{
+	float: left;
+}
+.menu {
+    float: left;
+    width: 955px;
+
+}
+ul.mainMenu {
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Oswald;
+	display: block;
+	padding: 30px 15px;
+	font-weight: 500;
+	color: #2f2e2e;
+	transition: 0.3s;
+}
+#active a{
+	color: #30bfa5;
+}
+.menu ul li a:hover{
+	color: #30bfa5;
+}
+/* -------------------------------Hero------------------------------ */
+.hero{
+	background: url('img/slide-2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+}
+.titleColor{
+	color: #30bfa5;
+	padding-top: 20px;
+}
+.heroContent{
+	color: white;
+}
+.heroContent h1{
+	font-size: 50px;
+    transform: uppercasae;
+    text-transform: uppercase;
+    width: 600px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 100px;
+    float: left;
+
+}
+.heroContent p{
+	font-weight: 500;
+	font-size: 18px;
+	width: 444px;
+	line-height: 25px;
+	margin-bottom: 25px;
+	color: white;
+}
+#heroSlider{
+	background-color: #30bfa5;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Oswald';
+    border-radius: 3px;
+    margin-bottom: 85px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#heroSlider:hover{
+	color: white;
+	background-color:#171616;
+}
+/* ---------------------serviceBox------------ */
+#serviceBox{
+	background: #f5f6f6;
+	height: auto;
+
+}
+.sboxWrapper{
+	overflow: hidden;
+}
+
+
+ .sboxTitle {
+    font-size: 20px;
+    font-family: 'Oswald';
+    line-height: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+ .sboxIcon {
+    text-align: center;
+    font-size: 40px;
+    color: #30bfa5;
+    margin: 25px 0px;
+}
+
+
+ .sboxDes {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    color: #615959;
+}
+.sboxLink{
+	text-align: center;
+	margin: 25px 0px;
+}
+.sboxLink a{
+	text-decoration: none;
+    color: #30bfa5;
+    font-weight: 500;
+}
+ .sbox {
+    width: 253px;
+    background-color: white;
+    padding: 12px;
+    float: left;
+    margin-right: 24px;
+    border: 0.5px solid #ece9e9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sbox:hover{
+	color: red;
+	background-color: #30bfa5;
+}
+
+/* ------------------------workContent------------------- */
+
+.workcontent{
+	overflow: hidden;
+}
+.work-img {
+    width: 540px;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.workDetails {
+    width: 540px;
+    float: right;
+    padding-left: 30px;
+}
+
+.workDetails h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.workDetails p {
+    color: #656060;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+.workFacilities{
+	margin-bottom: 25px;
+}
+.workFacilities ul{
+	list-style: none;
+}
+.workFacilities .FLeftUl{
+	width: 275px;
+	float: left;
+
+}
+.workFacilities li {
+    line-height: 40px;
+    color: #272424;
+    font-weight: 500;
+}
+.workContactBtn a{
+	background-color: #30bfa5;
+	color: white;
+	text-decoration: none;
+	padding: 14px 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family:Oswald;
+	font-weight: 500;
+	border-radius: 3px;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+.workContactBtn a:hover{
+	color: white;
+	background-color:#171616;
+}
+/* ----------------------------------------whyChooseUS------------------- */
+#whychooseUs{
+	background: linear-gradient(#292828c2,#292828c2), url('img/why-choose.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.iconWrapper{
+	overflow: hidden;
+}
+.firstBox{
+	width: 270px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+.firstBox i{
+	font-size: 35px;
+	
+
+}
+.firstBox h2{
+	font-size: 50px;
+	font-family: Arial black;
+	font-weight: 900;
+	padding: 10px 0px;
+
+}
+.firstBox h4{
+	font-size: 21px;
+	word-spacing: 5px;
+	
+}
+/* --------------------------Team----------- */
+
+.secTitle h2{
+	font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.secTitle p{
+	
+    color: #656565;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.singlePerson{
+	width: 256px;
+    float: left;
+    margin: 0px 10px;
+
+}
+h3 {
+    font-size: 20px;
+}
+
+.personInfo {
+    padding: 15px;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+p {
+    font-size: 13px;
+    color: #585353;
+    margin-top: 8px;
+}
+#joinTeamBtn{
+	background-color: red;
+}
+.teamperson{
+	margin: 45px 0px;
+}
+.joinTBtn{
+	text-align: center;
+}
+#joinTeamButton{
+	
+	background-color:#171616;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Oswald';
+    border-radius: 3px;
+    margin-top: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+
+
+}
+#joinTeamButton:hover{
+	color: white;
+	background-color: #30bfa5;
+}
+/* ------------------------------------footer---------------------- */
+
+#footer{
+	background: #1A1A1A;
+	padding-top: 200px;
+}
+.copyrightContainer{
+	overflow: hidden;
+	color:#ababab;
+	border-top: 1px solid #333;
+}
+.copyrightContainer .container{
+	overflow: hidden;
+}
+.copyrightText{
+	width: 520px;
+	float: left;
+	padding: 35px 15px;
+	font-size: 15px;
+
+}
+
+.copyrightMenu{
+	width:570px;
+	float: right;
+}
+.copyrightMenu ul{
+	list-style: none;
+	float: right;
+	overflow: hidden;
+}
+.copyrightMenu ul li{
+	
+	float: left;
+
+}
+.copyrightMenu ul li a{
+	color: #ababab;
+	padding: 35px 15px;
+	text-decoration: none;
+	background-color: transparent;
+	display: block;
+	font-size: 15px;
+}
+
+.fboxWrapper {
+    overflow: hidden;
+    margin-bottom: 76px;
+}
+
+.fBox {
+    overflow: hidden;
+    width: 550px;
+    float: left;
+}
+.fboxWrapper {
+    overflow: hidden;
+    margin-bottom: 76px;
+}
+
+.fBox {
+    overflow: hidden;
+    width: 550px;
+    float: left;
+}
+.fBox h3{
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.fBox p{
+	color: #ababab;
+    font-size: 15px;
+    width: 276px;
+    margin-bottom: 10px;
+}
+.fTextP{
+	width: 300px;
+}
+.fIcon a{
+	display: block;
+	width: 30px;
+	background: #666;
+	display: grid;
+	place-items: center;
+	padding: 5px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+.fIcon a:hover{
+	background: #30bfa5;
+	color: white;
+}
+#fcontacts{
+	display: block;
+	margin-bottom: 20px;
+	color: #999;
+}
+#fcontacts i{
+	color: #30bfa5;
+	margin-right: 10px;
+	
+}
+/* ----------------------subscribe form------------------- */
+
+.subBoxWrapper{
+	overflow: hidden;
+    background: #30bfa5;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: -152px;
+
+}
+.subSingleBox {
+    width: 370px;
+    float: left;
+    padding: 30px;
+}
+.subSingleBox:last-child{
+	margin-right: 0px;
+}
+.subSingleBox h2{
+	color: white;
+	margin-bottom: 20px;
+}
+.inputBox{
+	
+	position: relative;
+}
+.inputBox input:first-child{
+	width: 80%;
+	padding: 15px;
+	border: none;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	font-family: Work Sans;
+	letter-spacing: 1px;
+}
+.inputBox input:last-child{
+	padding: 13px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1;
+    font-size: 17px;
+    width: 120px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+	
+}
+.subSingleBox p{
+	color: white;
+	font-size: 16px;
+}
+
+.subIcons{
+	overflow: hidden;
+}
+.subIcons a{
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	float: left;
+	display: grid;
+	place-items: center;
+	border-radius: 100%;
+	margin-right: 15px;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.subIcons a:hover{
+	background: white;
+	color: black;
+}
